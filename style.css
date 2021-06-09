@@ -8,8 +8,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 50px;
-    background-color: lightcoral;
+    height: 75px;
+    background-color: linen;
 }
 
 ul {
@@ -19,11 +19,29 @@ ul {
 li {
     display: inline;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Lato', sans-serif;
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
 .navbar div {
     padding: 10px;
+}
+
+/* Welcome Section */
+.welcome-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: linen;
+    align-items: center;
+    background-image: url('images/Typewriter.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-section div {
+    margin: 10%;
 }
