@@ -8,8 +8,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    top: 0;
+    width: 100%;
     height: 75px;
-    background-color: linen;
+    background-color: rgb(27, 27, 27);
 }
 
 ul {
@@ -21,11 +23,11 @@ li {
     padding: 10px;
     font-size: 25px;
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: linen;
 }
 
 .navbar div {
-    padding: 10px;
+    padding: 20px;
 }
 
 /* Welcome Section */
@@ -33,9 +35,6 @@ li {
     display: flex;
     width: 100%;
     height: 100vh;
-    font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    color: linen;
     align-items: center;
     background-image: url('images/Typewriter.jpg');
     background-size: cover;
@@ -44,4 +43,9 @@ li {
 
 .welcome-section div {
     margin: 10%;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: linen;
 }
+
+/* Project Section */
