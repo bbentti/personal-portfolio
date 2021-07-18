@@ -111,6 +111,93 @@
     padding: 50px 30px 30px 30px;
 }
 
+/* Star Wars Movie Section (Upgrade 1) */
+
+#starWars {
+    display: flex;
+    flex-direction: column;
+    background-color: #0833aa;
+    align-items: center;
+}
+
+.starWarsHeader {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: #d644e1;
+    font-size: 60px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.starWarsLine {
+    width: 800px;
+    height: 1px;
+    border-color: #d644e1;
+    background-color: #d644e1;
+}
+
+#movieTileDiv {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+
+#movieTileDiv h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+#movieTileDiv p {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+/* Star Wars People Section (Upgrade 1) */
+
+#starWarsPeople {
+    display: flex;
+    flex-direction: column;
+    background-color: #0833aa;
+    align-items: center;
+}
+
+.starWarsPeopleHeader {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    color: #d644e1;
+    font-size: 60px;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+#peopleTileDiv {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+
+#peopleTileDiv h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+#peopleTileDiv p {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+#peopleGridDiv {
+    display: flex;
+    flex-direction: row;
+}
+
 /* Contact Section */
 
 .contact-section {
